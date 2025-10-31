@@ -20,3 +20,9 @@ This demo helps:
 - Quantify the performance difference across allocation sizes.
 - Identify threshold boundaries (e.g., ~16 KB, ~128 KB, ~512 KB on Windows).
 - Compare allocation behavior between Windows and Linux.
+
+
+
+## Results
+
+ [Windows Results](./docs/WinResult.md)
