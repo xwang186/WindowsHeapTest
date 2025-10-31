@@ -1,13 +1,13 @@
 # Windows Results
 
 ## Env
-Compiler: Microsoft (R) C/C++ Optimizing Compiler Version 19.50.35717 for x64
-Compile Mode: RelWithDebInfo
-CPU: 12th Gen Intel(R) Core(TM) i9-12900K (3.20 GHz)
-RAM: Samsung SSD 980 PRO 2TB
-OS Version/ucrtbase.dll version: 10.0.26100.7019
+**Compiler**: Microsoft (R) C/C++ Optimizing Compiler Version 19.50.35717 for x64   
+**Compile Mode**: RelWithDebInfo  
+**CPU**: 12th Gen Intel(R) Core(TM) i9-12900K (3.20 GHz)  
+**RAM**: Samsung SSD 980 PRO 2TB  
+**OS Version/ucrtbase.dll version**: 10.0.26100.7019  
 
-# Perf Data
+## Perf Data
 | Size (KB) | Total Time (s) | Avg per alloc (us) |
 |-----------|----------------|--------------------|
 |        1 |   0.004781 |      0.048 |
