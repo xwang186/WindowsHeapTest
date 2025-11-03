@@ -4,4 +4,6 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 
 project(heaptest)
 # Define executable
-add_executable(alloc_benchmark src/main.cpp)
+include_directories(${CMAKE_SOURCE_DIR}/include)
+add_executable(alloc_benchmark src/alloc_common.cpp src/main.cpp)
+add_executable(alloc_benchmark_multi src/alloc_common.cpp src/multi_thread_main.cpp)
