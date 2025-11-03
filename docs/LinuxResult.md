@@ -41,7 +41,7 @@
 
 ## Perf Data (Multiple Thread)
 Running deterministic multi-threaded test with 8 threads
-Allocation sizes: 150–300 KB (step 10 KB)
+Allocation sizes: 150-300 KB (step 10 KB)
 
 === Summary ===
 Threads: 8

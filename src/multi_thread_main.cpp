@@ -33,7 +33,7 @@ int main(int argc, char** argv) {
 
     std::cout << "Running deterministic multi-threaded test with "
               << THREADS << " threads\n"
-              << "Allocation sizes: " << MIN_SIZE / KB << "–" << MAX_SIZE / KB
+              << "Allocation sizes: " << MIN_SIZE / KB << "-" << MAX_SIZE / KB
               << " KB (step " << STEP / KB << " KB)\n";
 
     std::vector<size_t> sizes;

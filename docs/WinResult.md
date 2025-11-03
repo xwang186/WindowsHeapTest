@@ -38,3 +38,13 @@
 |      768 |   0.965950 |      9.660 |
 |      896 |   1.125755 |     11.258 |
 |     1024 |  22.632368 |    226.324 |
+
+## Perf Data (Multiple Thread)
+
+Allocation sizes: 150-300 KB (step 10 KB)
+
+=== Summary ===
+Threads: 8
+Total allocations: 128000000
+Average per alloc (us): 10.018
+Wall-clock time (s): 20.127
